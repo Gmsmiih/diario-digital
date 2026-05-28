@@ -60,11 +60,19 @@ button {
     cursor: pointer;
     margin-top: 20px;
     transition: 0.3s;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    box-shadow: 0 4px 10px rgb(44, 4, 57);
     font-weight: bold;
 
 }
 
 button:hover {
     background-color: #451464;
+}
+
+.post {
+    background-color: rgb(99, 58, 133);
+    border-radius: 10px;
+    padding: 25px 60px;
+    box-shadow:rgb(44, 4, 57);
+
 }
