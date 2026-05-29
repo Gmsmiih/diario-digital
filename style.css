@@ -72,7 +72,22 @@ button:hover {
 .post {
     background-color: rgb(99, 58, 133);
     border-radius: 10px;
-    padding: 25px 60px;
-    box-shadow:rgb(44, 4, 57);
+    padding: 25px 30px;
+    box-shadow: 0 10px 15px rgb(44, 4, 57);
 
+}
+
+.feed {
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+.data {
+    font-size: 12px;
+    text-align: end;
+    color:rgb(102, 102, 102);
 }
