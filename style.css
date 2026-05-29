@@ -60,8 +60,9 @@ button {
     cursor: pointer;
     margin-top: 20px;
     transition: 0.3s;
-    box-shadow: 0 4px 10px rgb(44, 4, 57);
+    box-shadow: 0 4px 10px rgb(34, 3, 44);
     font-weight: bold;
+
 
 }
 
@@ -70,10 +71,10 @@ button:hover {
 }
 
 .post {
-    background-color: rgb(99, 58, 133);
+    background-color: rgb(30, 7, 48);
     border-radius: 10px;
     padding: 25px 30px;
-    box-shadow: 0 10px 15px rgb(44, 4, 57);
+    box-shadow: 0 10px 15px rgb(81, 8, 106);
 
 }
 
@@ -81,8 +82,8 @@ button:hover {
     display:flex;
     flex-direction: column;
     justify-content:center;
-    align-items: center;
-    height: 100vh;
+    align-items: stretch;
+    gap: 25px;
 
 }
 
