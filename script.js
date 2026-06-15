@@ -12,3 +12,7 @@ const feed= document.getElementById("feed");
 button.addEventListener("click", function() {
     alert("Deu certo!");
 });
+
+const formulario= document.getElementById("form");
+
+formulario.classList.remove("hidden");
