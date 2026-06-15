@@ -1,5 +1,3 @@
-console.log("script loaded!");
-
 
 const button= document.getElementById("add-post");
 
