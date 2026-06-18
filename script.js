@@ -18,9 +18,9 @@ const date = document.getElementById("data");
 const butt = dozument.getElementById("sent-post");
 
 butt.addEventListener("click", function() {
-   console.log(tit.value);
-   console.log(content.value);
-   console.log(date.value);
+   alert(tit.value);
+   alert(content.value);
+   alert(date.value);
 
 
 });
