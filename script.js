@@ -15,7 +15,7 @@ const content = document.getElementById("conteudo");
 
 const date = document.getElementById("data");
 
-const butt = dozument.getElementById("sent-post");
+const butt = document.getElementById("sent-post");
 
 butt.addEventListener("click", function() {
    alert(tit.value);
