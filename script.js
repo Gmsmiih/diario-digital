@@ -14,3 +14,13 @@ const tit = document.getElementById("titulo");
 const content = document.getElementById("conteudo");
 
 const date = document.getElementById("data");
+
+const butt = dozument.getElementById("sent-post");
+
+butt.addEventListener("click", function() {
+   console.log(tit.value);
+   console.log(content.value);
+   console.log(date.value);
+
+
+});
