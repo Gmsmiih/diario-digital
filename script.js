@@ -17,7 +17,8 @@ const date = document.getElementById("data");
 
 const butt = document.getElementById("sent-post");
 
-butt.addEventListener("click", function() {
+butt.addEventListener("click", function(evento) {
+   evento.preventDefault();
    console.log(tit.value);
    console.log(content.value);
    console.log(date.value);
