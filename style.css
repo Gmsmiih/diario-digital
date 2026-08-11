@@ -60,21 +60,21 @@ button {
     cursor: pointer;
     margin-top: 20px;
     transition: 0.3s;
-    box-shadow: 0 4px 10px rgb(34, 3, 44);
+    box-shadow: 0 4px 10px rgb(27, 2, 35);
     font-weight: bold;
-
+    
 
 }
 
 button:hover {
-    background-color: #451464;
+    background-color: #3e1259;
 }
 
 .post {
-    background-color: rgb(30, 7, 48);
+    background-color: rgb(51, 30, 67);
     border-radius: 10px;
     padding: 25px 30px;
-    box-shadow: 0 10px 15px rgb(58, 6, 76);
+    box-shadow: 0 10px 15px rgb(57, 8, 73);
 
 }
 

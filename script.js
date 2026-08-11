@@ -22,6 +22,7 @@ butt.addEventListener("click", function(evento) {
    console.log(tit.value);
    console.log(content.value);
    console.log(date.value);
+const novoPost = document.createElement("article");
 
-
+novoPost.classList.add("post");
 });
